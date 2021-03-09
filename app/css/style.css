@@ -1,7 +1,45 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500&display=swap');
+
 body{
 	background: #f2f2f2;
+	font-family: 'Roboto', sans-serif;
 }
 
 h1{
 	color: #2288e7;
+}
+
+.box{
+    background: #fff;
+    width: 600px;
+    position: absolute;
+    transform: translate(-50%, -50%);
+    left: 50%;
+    top: 50%;
+}
+
+.item{
+    padding: 30px;
+}
+
+.item-titulo{
+    font-size: 27px;
+    font-weight: bold;
+    margin-bottom: 25px;
+}
+
+.item-input{
+	
+}
+
+.item-botao{
+	
+}
+
+.item-label{
+   	font-size: 15px;
+}
+
+.item-checkbox{
+
 }
