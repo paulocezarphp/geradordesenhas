@@ -9,6 +9,13 @@ h1{
 	color: #2288e7;
 }
 
+p{
+    padding: 0px;
+    margin: 0px;
+    padding-bottom: 3px;
+    padding-top: 3px;
+}
+
 .box{
     background: #fff;
     width: 600px;
@@ -16,6 +23,10 @@ h1{
     transform: translate(-50%, -50%);
     left: 50%;
     top: 50%;
+    -webkit-box-shadow: 5px 5px 5px 1px rgba(222,222,222,0.5);
+    -moz-box-shadow: 5px 5px 5px 1px rgba(222,222,222,0.5);
+    box-shadow: 5px 5px 5px 1px rgba(222,222,222,0.5);
+    border-radius: 5px;
 }
 
 .item{
@@ -29,11 +40,42 @@ h1{
 }
 
 .item-input{
-	
+	border: none;
+    outline: none;
+    box-shadow: 0px 0px 0px 0px;
+    border-bottom: 2px solid #ccc;
+    padding: 10px;
+    width: 96%;
+    margin-bottom: 20px;
+    background: #f2f2f2;
+}
+
+.item-input:focus{ 
+    border-bottom: 2px solid #00b8e6;
 }
 
 .item-botao{
-	
+    position: relative;
+	transform: translateX(-50%);
+    left: 50%;
+    padding: 17px 37px;
+    background: #00b8e6;
+    color: #fff;
+    border: none;
+    outline: none;
+    box-shadow: 0px 0px 0px 0px;
+    font-size: 16px;
+    margin-top: 15px;
+    border-radius: 3px;
+    cursor: pointer;
+}
+
+.item-botao:hover{
+    background: #00a3cc;
+}
+
+.item-botao:active{
+    background: #00b8e6;
 }
 
 .item-label{
@@ -42,4 +84,13 @@ h1{
 
 .item-checkbox{
 
+}
+
+.item-resultado{
+    margin-bottom: 10px;
+    margin-top: 30px;
+    background: #f2f2f2;
+    padding: 20px;
+    text-align: center;
+    color: #00b8e6;
 }
