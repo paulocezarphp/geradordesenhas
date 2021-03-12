@@ -32,3 +32,38 @@ function GerarSenha(tamanho, checkbox_minusculo, checkbox_maiusculo, checkbox_es
     }
 
 }
+
+
+document.getElementById("check1").addEventListener("click", function(){
+    if(document.getElementById("checkbox1").checked == false){
+        document.getElementById("checkbox1").checked = true;
+    }else{
+        document.getElementById("checkbox1").checked = false;
+    }
+});
+
+document.getElementById("check2").addEventListener("click", function(){
+    if(document.getElementById("checkbox2").checked == false){
+        document.getElementById("checkbox2").checked = true;
+    }else{
+        document.getElementById("checkbox2").checked = false;
+    }
+});
+
+document.getElementById("check3").addEventListener("click", function(){
+    if(document.getElementById("checkbox3").checked == false){
+        document.getElementById("checkbox3").checked = true;
+    }else{
+        document.getElementById("checkbox3").checked = false;
+    }
+});
+
+document.getElementById("check4").addEventListener("click", function(){
+    if(document.getElementById("checkbox4").checked == false){
+        document.getElementById("checkbox4").checked = true;
+    }else{
+        document.getElementById("checkbox4").checked = false;
+    }
+});
+
+//checkbox1
