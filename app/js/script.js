@@ -66,4 +66,12 @@ document.getElementById("check4").addEventListener("click", function(){
     }
 });
 
-//checkbox1
+document.getElementById("check4").addEventListener("click", function(){
+    if(document.getElementById("checkbox4").checked == false){
+        document.getElementById("checkbox4").checked = true;
+    }else{
+        document.getElementById("checkbox4").checked = false;
+    }
+});
+
+
